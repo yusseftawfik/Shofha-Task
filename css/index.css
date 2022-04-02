@@ -1,0 +1,40 @@
+/* MAIN */
+.content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+main span {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 3vw;
+}
+/* MAIN */
+
+/* BUTTON */
+.suscribe-btn {
+  border: #ffffff 0.1px solid;
+  border-radius: 5px;
+  outline: 0;
+  background-color: #9a0058;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2vw;
+  transition: 0.5s;
+  padding: 3%;
+  width: 40vw;
+}
+.suscribe-btn:hover {
+  background-color: #ffffff;
+  color: #9a0058;
+  border: #9a0058 0.1px solid;
+}
+/* BUTTON */
